@@ -6,13 +6,13 @@
 
 注：如果图片不能显示请尝试将VPN设为全局模式，也可以通过备用链接查看
 
-Demo[备用链接](http://g.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=fdab84b5fe1986184547ec8c7ad65f4e/4ec2d5628535e5dda9a1a40b70c6a7efcf1b6250.jpg)
+[备用链接](http://g.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=fdab84b5fe1986184547ec8c7ad65f4e/4ec2d5628535e5dda9a1a40b70c6a7efcf1b6250.jpg)
 
-![](https://github.com/xiaofei86/LPScrollableTableView/raw/master/Images/1.gif)
+<img src = "https://github.com/xiaofei86/LPScrollableTableView/raw/master/Images/1.gif" width = 373>
 
-全麦运动[备用链接](http://h.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=7d23e6eb4dfbfbedd859357748cb860b/a044ad345982b2b7f72e4e1037adcbef77099bb4.jpg)
+[备用链接](http://h.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=7d23e6eb4dfbfbedd859357748cb860b/a044ad345982b2b7f72e4e1037adcbef77099bb4.jpg)
 
-![](https://github.com/xiaofei86/LPScrollableTableView/raw/master/Images/2.png)
+<img src = "https://github.com/xiaofei86/LPScrollableTableView/raw/master/Images/2.png" width = 373>
 
 #使用方法
 
@@ -68,6 +68,6 @@ Demo[备用链接](http://g.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=fdab
 	
 	@end
 
-
+>*已在APP“全麦运动”中使用*
 
 
