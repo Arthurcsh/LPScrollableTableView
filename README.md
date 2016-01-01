@@ -1,22 +1,27 @@
 # LPScrollableTableView
 
-基于UICollectionView实现的固定header的表格LPScrollableTableView
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/xiaofei86/LPScrollableTableView/master/LICENSE)&nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/p/YYKit.svg?style=flat)](http://www.apple.com/ios/)&nbsp;
+[![Support](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat)](https://en.wikipedia.org/wiki/IOS_7)&nbsp;
+[![Support](https://img.shields.io/badge/blog-xuyafei.cn-orange.svg)](http://www.xuyafei.cn)&nbsp;
 
-可以直接通过LPCollectionViewPlainLayout来使用。用法就是UICollectionView的用法。但是通过UICollectionView的delegate和datasource直接返回数据的话，跟这种固定header的表格的数据有些差异。所以就封装了LPScrollableTableView对UICollectionView的delegate和datasource进行了包装。通过三个方法分别来获取顶部header数据，左边header数据和内容数据，这样数据更加清晰，使用也更加方便。效果如下：
+基于UICollectionView实现的固定header的表格LPScrollableTableView。
 
-注：如果图片不能显示请尝试将VPN设为全局模式，也可以关闭VPN通过备用链接查看
-
-[备用链接](http://g.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=fdab84b5fe1986184547ec8c7ad65f4e/4ec2d5628535e5dda9a1a40b70c6a7efcf1b6250.jpg)
+[图片备用链接](http://g.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=fdab84b5fe1986184547ec8c7ad65f4e/4ec2d5628535e5dda9a1a40b70c6a7efcf1b6250.jpg)
 
 <img src = "https://github.com/xiaofei86/LPScrollableTableView/raw/master/Images/1.gif" width = 373>
 
-[备用链接](http://h.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=7d23e6eb4dfbfbedd859357748cb860b/a044ad345982b2b7f72e4e1037adcbef77099bb4.jpg)
+[图片备用链接](http://h.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=7d23e6eb4dfbfbedd859357748cb860b/a044ad345982b2b7f72e4e1037adcbef77099bb4.jpg)
 
 <img src = "https://github.com/xiaofei86/LPScrollableTableView/raw/master/Images/2.png" width = 373>
 
-#使用方法
+#Usage
 
-方法命都参照UICollectionView的delegate和datasource，就不介绍了。
+可直接在自己的UICollectionView使用LPCollectionViewPlainLayout。但是通过UICollectionView的delegate和datasource注入数据于这种固定header的表格的数据需求有些差异。而LPScrollableTableView对UICollectionView的delegate和datasource进行了包装。通过三个方法分别来获取顶部header数据，左边header数据和内容数据。
+
+####DataSource
+
+方法命名都参照UICollectionView的delegate和datasource。
 
 	@protocol LPScrollableTableViewDataSource <NSObject>
 	
@@ -36,8 +41,7 @@
 	
 	@end
 	
-#样式调整
-具体使用方法可在Demo中查看。
+####Configuration
 
 	@interface LPScrollableTableView : UIView
 	
@@ -67,7 +71,3 @@
 	@property (nonatomic, strong) NSMutableArray *selectedIndexPaths;
 	
 	@end
-
->*已在APP“全麦运动”中使用*
-
-
